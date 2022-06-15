@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&display=swap");
+:root {
+  --yellow: #fec83e;
+  --blue: #172048;
+  --gray: #5a6378;
+  --white: #f8f8f8;
+}
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Inter";
+  font-size: normal;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+}
+
+body,
+div,
+article,
+aside,
+footer,
+section,
+header,
+main,
+nav,
+ul,
+ol,
+li,
+button,
+figure,
+picture,
+hr,
+menu {
+  display: flex;
+}
+
+body {
+  margin: 0px;
+  flex-direction: column;
+  background-color: var(--blue);
+}
+body > main {
+  min-height: 400px;
+}
+
+#header {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-image: url(../images/Ornament.svg);
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+}
+#header nav {
+  width: 100vw;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 44px;
+  padding: 0 20px;
+}
+#header nav .star {
+  position: absolute;
+  z-index: 2;
+  right: 26px;
+  top: 81px;
+}
+#header nav .logo {
+  width: 76px;
+  height: 32px;
+}
+#header nav .menu {
+  width: 24px;
+  height: 24px;
+}
+#header .topo {
+  display: flex;
+  flex-direction: column;
+  padding: 4px 20px 0px 20px;
+  width: 100vw;
+  height: 100vh;
+}
+#header .topo .texts {
+  display: flex;
+  flex-direction: column;
+  padding-top: 34px;
+}
+#header .topo .texts h1 {
+  width: 100vw;
+  font-size: 70px;
+  color: var(--white);
+  font-weight: bold;
+}
+#header .topo .texts p {
+  width: 309px;
+  height: 62px;
+  margin-top: 20px;
+  font-size: 18px;
+  color: var(--white);
+  font-weight: 200;
+  line-height: 32px;
+}
+#header .topo .texts .btn-work {
+  border: none;
+  margin: 25px 0 38px;
+  height: 54px;
+  width: 157px;
+  background-color: var(--yellow);
+  position: relative;
+  display: inline-block;
+  padding: 16px 24px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 550;
+  color: var(--black);
+  border-radius: 50px;
+}
+#header .topo .texts .btn-work img {
+  width: 15px;
+  height: 15px;
+}
+#header .topo .photos {
+  display: flex;
+  flex-direction: column;
+}
+#header .topo .photos .agency {
+  width: 327px;
+  height: 333px;
+  z-index: 1;
+}
+#header .topo .photos .play-video {
+  height: 100px;
+  width: 100px;
+  position: relative;
+  left: 209px;
+  bottom: 63px;
+}
+#header .topo .photos .plan {
+  width: 157px;
+  height: 200px;
+  right: 100px;
+  top: 200px;
+}
+#header .topo .text-two {
+  display: flex;
+  flex-direction: column;
+  margin-top: 45px;
+  width: 324px;
+  height: 680px;
+}
+#header .topo .text-two h1 {
+  width: 219px;
+  font-size: 24px;
+  color: var(--white);
+  font-weight: bold;
+  margin-bottom: 32px;
+}
+#header .topo .text-two p {
+  font-size: 16px;
+  color: var(--white);
+  font-weight: 200;
+  line-height: 30px;
+}
+#header .topo .text-two .second-p {
+  font-size: 16px;
+  color: var(--white);
+  font-weight: 200;
+  line-height: 30px;
+  margin-top: 45px;
+}
+#header .topo .btn-contact {
+  border: none;
+  margin: 25px 0 38px;
+  height: 54px;
+  width: 157px;
+  background-color: var(--yellow);
+  position: relative;
+  display: inline-block;
+  padding: 16px 24px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 550;
+  color: var(--black);
+  border-radius: 50px;
+  width: 170px;
+  height: 56px;
+  margin-top: 35px;
+}
+#header .topo .btn-contact img {
+  width: 15px;
+  height: 15px;
+}
+
+/*# sourceMappingURL=main.css.map */

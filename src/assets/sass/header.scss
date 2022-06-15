@@ -1,0 +1,118 @@
+#header {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../images/Ornament.svg);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    nav {
+        width: 100vw;
+        height: fit-content;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 44px;
+        padding: 0 20px;
+        .star{          
+            position: absolute;
+            z-index: 2;
+            right: 26px;
+            top: 81px;
+        }
+        .logo {
+            width: 76px;
+            height: 32px;
+        }
+        .menu {
+            width: 24px;
+            height: 24px;
+        }
+    }
+    .topo {
+        display: flex;
+        flex-direction: column;
+        padding: 4px 20px 0px 20px;
+        width: 100vw;
+        height: 100vh;
+        .texts {
+            display: flex;
+            flex-direction: column;
+            padding-top: 34px;
+            h1 {
+                width: 100vw;
+                font-size: 70px;
+                color: var(--white);
+                font-weight:bold;
+            }
+            p {
+                width: 309px;
+                height: 62px;
+                margin-top: 20px;
+                font-size: 18px;
+                color: var(--white);
+                font-weight: 200;
+                line-height: 32px;
+            }
+            .btn-work{
+                @include button;
+            }
+        }
+        .photos{
+            display:flex;
+            flex-direction: column;
+            .agency{
+                width: 327px;
+                height: 333px;
+                z-index: 1;
+            }
+            .play-video{
+                height: 100px;
+                width: 100px;
+                position: relative;
+                left: 209px;
+                bottom: 63px;
+            }
+            .plan{
+                width: 157px;
+                height: 200px;
+                right: 100px;
+                top: 200px;
+            }
+        }
+        .text-two{
+            display: flex;
+            flex-direction: column;
+            margin-top: 45px;
+            width: 324px;
+            height: 680px;
+            h1 {
+                width: 219px;
+                font-size: 24px;
+                color: var(--white);
+                font-weight:bold;
+                margin-bottom: 32px ;
+            }
+            p {
+                font-size: 16px;
+                color: var(--white);
+                font-weight: 200;
+                line-height: 30px;
+            }
+            .second-p{
+                font-size: 16px;
+                color: var(--white);
+                font-weight: 200;
+                line-height:30px;
+                margin-top: 45px;
+            }
+        }
+        .btn-contact{
+            @include button;
+            width: 170px;
+            height: 56px;
+            margin-top: 35px;
+        }
+    }
+
+}
